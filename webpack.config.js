@@ -1,4 +1,8 @@
 module.exports = {
+  output: {
+    library: 'reduxon',
+    libraryTarget: 'umd',
+  },
   plugins: [],
   mode: 'production',
   module: {
