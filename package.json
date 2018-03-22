@@ -2,13 +2,23 @@
   "name": "@morantron/reduxon",
   "version": "0.0.1",
   "description": "Vitamin supplement for redux",
-  "main": "index.js",
+  "main": "dist/main.js",
   "repository": "https://github.com/morantron/reduxon",
   "author": "Morantron",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "lodash.get": "^4.4.2",
     "lodash.isempty": "^4.4.0",
     "lodash.set": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-stage-3": "^6.24.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12"
   }
 }
