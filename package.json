@@ -1,5 +1,5 @@
 {
-  "name": "reduxon",
+  "name": "@morantron/reduxon",
   "version": "0.0.1",
   "description": "Vitamin supplement for redux",
   "main": "index.js",
