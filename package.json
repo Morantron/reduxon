@@ -1,6 +1,6 @@
 {
   "name": "@morantron/reduxon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vitamin supplement for redux",
   "module": "src/index.js",
   "main": "dist/main.js",
