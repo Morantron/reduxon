@@ -1,4 +1,7 @@
 module.exports = {
+  optimization: {
+    minimize: false
+  },
   output: {
     library: 'reduxon',
     libraryTarget: 'umd',
